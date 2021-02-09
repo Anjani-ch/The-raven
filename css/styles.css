@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+body{
+  background: url("../img/hero-raven.jpg") no-repeat;
+}
+
+
+
 nav {
   background-color: black;
   overflow: hidden;

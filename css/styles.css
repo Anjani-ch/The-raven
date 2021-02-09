@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Home page */
 .home {
   background: url("../img/hero-raven.jpg");
@@ -10,43 +14,51 @@
   color: white;
   font-size: 2.3rem;
   margin-top: 13%;
-  margin-left: 15%;
-=======
-* {
-  margin: 0;
-  padding: 0;
+  margin-left: 15%
 }
 
-body{
-  background: url("../img/hero-raven.jpg") no-repeat;
+/* About page */
+.about h1,
+.author h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 1%;
 }
 
-
-
-nav {
-  background-color: black;
-  overflow: hidden;
+.about img {
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 2%;
 }
 
-nav ul {
-  list-style-type: none;
+.about .content {
+  float: right;
+  margin-top: 3%;
+  margin-left: 25%;
+  margin-right: 10%;
 }
 
-nav a {
-   float: left;
-   color: ;
-   text-align: center;
-   padding: 1rem;
-   text-decoration: none;
-   font-size: 17px;
-   color: white;
+/* Author page */
+.author .content {
+  float: right;
+  margin-top: 3%;
+  margin-left: 28%;
+  margin-right: 10%;
 }
 
-nav a:hover {
-   background-color:grey;
+.author img {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
-nav a.active {
-   background-color: grey;
->>>>>>> main
+/* Poem page */
+.poem h1 {
+  text-align: center;
+  font-size: 2.7rem;
+  margin-bottom: 3%;
+}
+
+pre {
+  text-align: center;
 }

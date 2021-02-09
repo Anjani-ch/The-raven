@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Home page */
 .home {
   background: url("../img/hero-raven.jpg");
@@ -10,4 +11,42 @@
   font-size: 2.3rem;
   margin-top: 13%;
   margin-left: 15%;
+=======
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("../img/hero-raven.jpg") no-repeat;
+}
+
+
+
+nav {
+  background-color: black;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+   float: left;
+   color: ;
+   text-align: center;
+   padding: 1rem;
+   text-decoration: none;
+   font-size: 17px;
+   color: white;
+}
+
+nav a:hover {
+   background-color:grey;
+}
+
+nav a.active {
+   background-color: grey;
+>>>>>>> main
 }
